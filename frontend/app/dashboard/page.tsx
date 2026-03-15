@@ -44,7 +44,7 @@ export default function Dashboard() {
   const [currentTweet, setCurrentTweet] = useState<string>("");
   const feedRef = useRef<string[]>([]);
   const wsRef = useRef<WebSocket | null>(null);
-
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "ws://127.0.0.1:8000";
   const startSimulation = () => {
     if (!policy.trim()) return;
 
@@ -54,7 +54,7 @@ export default function Dashboard() {
     setStatus("processing");
     setCurrentTweet(""); // Reset tweet on new run
 
-    const ws = new WebSocket("ws://127.0.0.1:8000/ws/simulate");
+    const ws = new WebSocket(`${backendUrl}/ws/simulate`);
     wsRef.current = ws;
 
     ws.onopen = () => {
