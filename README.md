@@ -11,7 +11,7 @@ Governments and city planners often spend billions on urban policies based on gu
 
 
 ### 🚀 Live Demo
-**[Click here to view the live simulation](https://your-live-demo-link.vercel.app)** *(Replace with your actual deployment link like Vercel/Render)*
+**[Click here to view the live simulation](https://ai-futuretwin-97wt.vercel.app/)** 
 
 ---
 
@@ -71,7 +71,7 @@ Follow these steps to run the FutureTwin Engine locally on your machine.
 git clone [https://github.com/yourusername/ai-futuretwin.git](https://github.com/yourusername/ai-futuretwin.git)
 cd ai-futuretwin
 
-### Backend Setup (FastAPI & AI Agents)
+### 2. Backend Setup (FastAPI & AI Agents)
 
 # Navigate to the backend directory
 cd backend
@@ -92,7 +92,7 @@ python -m uvicorn app.main:app --reload
 
 The backend will start running at ws://127.0.0.1:8000/ws/simulate
 
-3. Frontend Setup (Next.js)
+### 3. Frontend Setup (Next.js)
 
 Open a new terminal window and navigate to the frontend folder.
 
@@ -144,6 +144,3 @@ Built for the National Level Hackathon 2026. Feel free to open issues or submit 
 
 Designed & Developed by Bikash Samanta
 
-
-### 📸 Ek Chota Sa Kaam (Screenshots):
-Jaise hi tum isko GitHub par push karoge, README mein "Insert Dashboard Screenshot Here" likha hoga. Apne project ke mast se 2 screenshots lena, unhe repository mein upload karna, aur upar wale Markdown file mein unki links daal dena.
