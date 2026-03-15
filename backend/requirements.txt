@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+websockets
+crewai
+langchain-google-genai
+python-dotenv
+mesa

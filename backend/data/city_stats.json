@@ -1,0 +1,14 @@
+{
+    "city_name": "Bhubaneswar",
+    "base_year": 2025,
+    "current_metrics": {
+        "pollution_aqi": 165.5,
+        "traffic_density_percent": 88.0,
+        "economy_budget_usd": 650000.0,
+        "transit_usage_percent": 15.0
+    },
+    "demographics": {
+        "population": 1200000,
+        "major_industries": ["IT", "Education", "Tourism"]
+    }
+}
